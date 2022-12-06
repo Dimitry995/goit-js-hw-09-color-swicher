@@ -1,0 +1,2 @@
+let t=document.querySelector("body");const e=document.querySelector(".data-start"),o=document.querySelector(".data-stop");let r=null;e.addEventListener("click",(()=>{r=setInterval((()=>{const e=`#${Math.floor(16777215*Math.random()).toString(16)}`;t.style.backgroundColor=e,document.querySelector(".data-start").disabled=!0}),1e3)})),o.addEventListener("click",(function(t){clearTimeout(r),document.querySelector(".data-start").disabled=!1}));
+//# sourceMappingURL=01-color-switcher.bbda2877.js.map
