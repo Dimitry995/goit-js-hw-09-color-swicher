@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.timer {
+  width:300px;
+  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.field:first-child {
+ color:#7300ff;
+}
+.field:nth-child(2) {
+  color:green
+ }
+ .field:nth-child(3) {
+  color:orange;
+ }
+.field:last-child {
+  color:white;
+ }
+ .value {
+  text-transform: uppercase;
+  text-align:center;
+  font-size: 36px;
+ }
+ .form {
+  display: flex;
+  flex-direction: row;
+ }
+ label {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+ }
+ button {
+  height: 25px;
+margin-top: 22px;
+margin-left:10px;
+ }
+ #buttonContainer {
+  display: flex;
+  justify-content: center;
+ }
+ .data-start, .data-stop {
+  width:100px;
+  height:50px;
+  border-radius: none;
+  text-transform: uppercase;
+ }
