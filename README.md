@@ -1,3 +1,7 @@
+3 in 1 
+-ColorSwitcher
+-Timer
+-PromiseCreator
 # Parcel template
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
